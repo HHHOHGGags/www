@@ -11,7 +11,7 @@ const client = new Client({
 
 const TOKEN = process.env.TOKEN;
 const PREFIX = '!'; 
-const STAFF_ROLE_ID = 'YOUR_STAFF_ROLE_ID_HERE'; // ⚠️ آیدی نقش پشتیبانی رو اینجا بذار
+const STAFF_ROLE_ID = 'ihavemyweight'; // ⚠️ آیدی نقش پشتیبانی رو اینجا بذار
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
